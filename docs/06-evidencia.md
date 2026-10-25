@@ -12,6 +12,7 @@ Fecha de investigación: 25 de octubre de 2026, referencia del usuario en Americ
 6. Inspección visual de acceso y registro, y de una captura pública del cotizador.
 7. Inspección de términos y aviso de privacidad públicos. Ambos contienen algunos textos pendientes de completar; se registra como observación documental, sin concluir nada sobre la seguridad técnica del producto.
 8. Preparación de repositorio local, documentos e instrumentos reproducibles.
+9. Con autorizaciones explícitas de identidad y condiciones, se completó cuenta Google/México, onboarding y recorrido autenticado; ver docs/07 y docs/08.
 
 ## Resultado de captura corregida
 
@@ -19,7 +20,7 @@ Fecha de investigación: 25 de octubre de 2026, referencia del usuario en Americ
 
 Los 180 correctos: 138 JS, 14 CSS, 22 WebP, 2 PNG y 4 HTML. Cada respuesta tiene hash SHA-256 en `manifest.json`. El archivo previo no se suma a estos totales.
 
-No se guardaron videos ni se siguieron dominios externos de Google/Mapbox para la captura. No se usaron credenciales públicas encontradas para consumir servicios de terceros.
+La captura automática pública no guardó videos ni siguió dominios externos de Google/Mapbox. La navegación posterior de registro utilizó Google con autorización expresa. No se usaron credenciales públicas encontradas para consumir servicios de terceros.
 
 ## Índices y su significado
 
@@ -40,13 +41,13 @@ Los documentos de análisis son redacción propia. Los originales y el texto ext
 
 - Navegación web y descargas HTTP públicas.
 - Chrome DevTools MCP falló en dos intentos por conflicto de un perfil Chrome ocupado; no se mataron procesos ni se modificó el perfil.
-- Navegador integrado usado para inspección pública. La opción Google no produjo un diálogo visible tras el clic autorizado; se probó Chrome como alternativa y abrió el selector. La elección de identidad sigue pendiente.
+- Navegador integrado usado para inspección pública. La opción Google no produjo un diálogo visible tras el clic autorizado; se probó Chrome como alternativa y abrió el selector. La identidad y las condiciones se confirmaron posteriormente, y el registro se completó.
 - Python y curl para captura y análisis. Sin nuevas dependencias de aplicación.
 - Engram no estaba expuesto como herramienta MCP y el primer intento de lectura CLI encontró una base de memoria de solo lectura bajo el sandbox. El repositorio conserva los hallazgos. Posteriormente se guardó un resumen en la memoria local mediante la CLI autorizada.
 
 ## Qué no está demostrado
 
-- Registro o sesión autenticada completados; revisión de funcionalidades privadas.
+- Equivalencia exhaustiva de las funciones privadas: se completó registro y recorrido parcial; la matriz exacta está en docs/07.
 - Disponibilidad del backend fuente, base de datos, migraciones, jobs y secretos.
 - Reproducción exacta del cálculo, redondeo y casos límite.
 - Cumplimiento real de restricciones de camión y actualización/exactitud de tarifas.
@@ -54,4 +55,4 @@ Los documentos de análisis son redacción propia. Los originales y el texto ext
 - Proveedor real de tráfico/IA/pagos o arquitectura interna de infraestructura.
 - Condiciones finales, precio y contenido efectivo de la licencia única.
 
-No se sortearon autenticación, permisos, CAPTCHA ni protecciones del servicio. Una cuenta normal solo habilitaría sus propios datos y funciones autorizadas; no da acceso al código del servidor ni a empresas ajenas.
+No se sortearon autenticación, permisos, CAPTCHA ni protecciones del servicio. Las capturas autenticadas están en evidence/authenticated/, excluidas de Git, y no contienen cookies ni credenciales exportadas. Una cuenta normal solo habilitaría sus propios datos y funciones autorizadas; no da acceso al código del servidor ni a empresas ajenas.

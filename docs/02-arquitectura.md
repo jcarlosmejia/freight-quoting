@@ -50,7 +50,7 @@ Esta separación se deduce del artefacto compilado. Los nombres no recuperan car
 
 El frontend usa solicitudes con `credentials:"include"`. Hay referencias a cookie CSRF, cabecera `X-CSRF-TOKEN` y renovación POST a `/auth/refresh_token`. La sesión consulta `/auth/me`; la navegación comprueba usuario, verificación de correo, vencimiento de prueba, roles y permisos.
 
-No se obtuvieron tokens ni cookies de usuario. No se verificaron atributos HttpOnly/SameSite/Secure ni autorización real del backend. Los guards de navegación no prueban aislamiento de empresas.
+No se exportaron ni conservaron tokens o cookies de usuario. Se completó registro Google y acceso normal de la cuenta propia; no se verificaron atributos HttpOnly/SameSite/Secure ni autorización real del backend. Los guards de navegación no prueban aislamiento de empresas.
 
 Los roles y permisos están separados: por ejemplo, cotizar requiere `agregar:cotizacion`; ver cotizaciones, `ver:cotizacion`; gestión de casetas y plataforma requiere `superadmin`.
 

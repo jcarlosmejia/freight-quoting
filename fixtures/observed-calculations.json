@@ -1,0 +1,22 @@
+{
+  "observed_date": "2026-10-25",
+  "currency": "MXN",
+  "provenance": "Live authenticated UI in the user's own evaluation company; synthetic and vendor sample data only",
+  "status": "observed reference cases; not an implementation of the proprietary engine",
+  "fleet": {"annual_fixed_expenses": "8604000.00", "annual_billable_hours": "99840", "displayed_hourly_recovery": "86.18"},
+  "vehicle": {"value": "1299534.00", "salvage_percent": "20", "salvage_amount": "259906.80", "depreciable_base": "1039627.20", "average_capital": "779720.40", "annual_capital_percent": "10", "annual_capital_cost": "77972.04"},
+  "freight": {
+    "route": "Ciudad de México → Puebla",
+    "vehicle": "T3-S2",
+    "loaded_km_displayed": "130.228",
+    "duration_displayed": "2h 3min",
+    "empty_km": "0",
+    "fuel": "1524.32", "tires": "59.53", "maintenance": "46.88", "depreciation": "245.50", "rest": "0.00",
+    "general_fixed": "177.85", "specific_fixed": "77.90", "equipment": "14.19", "capital": "89.27",
+    "loaded_components_subtotal": "2235.45", "driver": "390.69", "tolls": "1304.00", "trip_cost": "3930.14",
+    "profit_percent": "20", "profit": "525.23", "subtotal": "4455.36", "tax_percent": "16", "tax": "712.86", "total": "5168.22",
+    "profit_30_variant": {"profit_percent": "30", "profit": "787.84", "subtotal": "4717.98", "tax": "754.88", "total": "5472.85"}
+  },
+  "rental": {"mode": "Monthly", "quantity": 1, "operating_days": "26", "billable_hours": "208", "estimated_km": "0", "fuel_and_tolls_paid_by": "customer", "extra_driver_monthly_salary": "0", "availability_cost": "49256.92", "usage_cost": "0.00", "profit_percent": "20", "profit": "9851.38", "subtotal": "59108.31", "tax_percent": "16", "tax": "9457.33", "total": "68565.63"},
+  "limitations": ["Amounts are displayed rounded values; component sums can differ by one cent from UI totals.", "No empty-return, long-rest, commission or historical-recalculation equivalence verified.", "Traffic, routing and tariffs can change; cases are captured observations, not permanent public price quotes."]
+}

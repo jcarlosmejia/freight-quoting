@@ -1,6 +1,6 @@
 # Fletcot: investigación para operación independiente
 
-Investigación del 25 de octubre de 2026. Objetivo: entender el producto, conservar evidencia pública y definir cómo obtener o construir un sistema propio modificable.
+Investigación pública y autenticada del 25 de octubre de 2026. Objetivo: entender el producto, conservar evidencia pública y definir cómo obtener o construir un sistema propio modificable.
 
 **Resultado:** se recuperaron los archivos distribuidos al navegador, el mapa de navegación, referencias a la API y documentación funcional embebida. **No se obtuvo el proyecto fuente original, el backend ni una base de datos. Este repositorio no es una aplicación autónoma ejecutable.**
 
@@ -14,7 +14,10 @@ Fletcot anuncia una licencia única que incluye código completo, documentación
 4. [Dominio y API](docs/04-dominio-api.md): entidades candidatas y contratos visibles.
 5. [Independencia y reconstrucción](docs/05-independencia.md): alternativas, fases y criterios de aceptación.
 6. [Método, evidencia y límites](docs/06-evidencia.md): qué se hizo y qué falta.
-7. [Revisión autenticada pendiente](docs/07-revision-privada.md): registro y checklist de exploración.
+7. [Cobertura de la revisión privada](docs/07-revision-privada.md): cuenta creada y recorrido por módulos.
+8. [Resultados autenticados](docs/08-resultados-autenticados.md): casos reales de flete/renta, guardado, permisos y limitaciones.
+
+La cuenta de prueba ya está creada. Se recorrieron los módulos propios, se creó un cliente sintético y la cotización COT-2026-0001, y se capturaron casos de flete y renta. Sus valores normalizados están en `fixtures/observed-calculations.json`; las capturas privadas están en `evidence/authenticated/` y no se incluyen en Git.
 
 ## Inventario comprobado
 
@@ -39,6 +42,7 @@ Requiere Python 3 y curl; no instala dependencias ni ejecuta el JavaScript desca
 python3 scripts/collect_public.py --self-test
 python3 scripts/collect_public.py
 python3 scripts/analyze_public.py
+python3 scripts/check_observed_cases.py
 ```
 
 La captura realiza GET sin credenciales, con tres solicitudes simultáneas, límite de 450 candidatos y 12 MB por respuesta. Solo sigue candidatos de los dos hosts públicos. El análisis comprueba las huellas de las respuestas correctas y valida casos representativos del inventario.

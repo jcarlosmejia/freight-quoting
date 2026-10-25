@@ -13,7 +13,7 @@ Este documento separa **reglas documentadas de Fletcot** de **fórmulas propuest
 - El vacío tiene controles independientes de recuperación y utilidad. El costo físico total no cambia al decidir cuánto cobrar.
 - Peajes se trasladan sin margen según la documentación. Deben contarse las pasadas: ida y vuelta pueden pagar la misma caseta dos veces.
 - Otros gastos admiten utilidad configurable.
-- Pago variable del operador puede combinar km, horas y comisión. La comisión documentada sale de la ganancia y no aumenta el precio al cliente.
+- Pago variable del operador puede combinar km, horas y comisión. La UI autenticada distingue comisión sobre neto y sobre utilidad; no se probaron esas modalidades. La documentación pública describe una comisión sobre ganancia, por lo que no basta para especificar ambas.
 - La nómina garantizada del operador pertenece a gastos fijos para evitar duplicación.
 - Una tasa de capital puede duplicar intereses ya incluidos en una mensualidad registrada como gasto fijo.
 
@@ -30,7 +30,7 @@ Fuentes independientes dentro del artefacto: `DocsPage-DU8KY3Vh.js`, campos/pane
 | Recuperación general | `gastos_generales_anualizados / horas_facturables_flota` | Periodicidades y divisiones por cero |
 | Gasto específico | `gasto_unidad_anual / horas_operativas_unidad` | Gastos por día/semana/mes/año |
 | Equipo | `cantidad × precio / vida_años / horas_anuales_unidad` | Vida en años + meses, asignaciones por viaje |
-| Capital | `capital_base × tasa_anual / horas_anuales × horas_servicio` | Base original, rescate y activos |
+| Capital | `capital_promedio × tasa_anual / horas_anuales × horas_servicio` | En el caso observado, promedio = (valor + rescate) / 2; faltan otros casos |
 | Depreciación | Recuperar `valor − rescate` por vida de uso/tiempo | Elección exacta entre base temporal y kilométrica |
 | Descansos | Conteo de descansos × costo, más duración en tiempo de servicio | Umbral exacto y manejo continuo entre tramos |
 | Peajes | Suma por pasada × tarifa de clase/pago | Carril, sentido, discrepancias y vigencia |
@@ -76,4 +76,4 @@ Mes = 1/12 del año operativo. Jornada, días operativos y cantidad de operadore
 | Renta sin uso | Disponibilidad positiva con km cero |
 | Redondeo | Suma de partidas, impuestos y total consistente |
 
-No se ejecutaron estas pruebas contra Fletcot. Primero se necesitan una cuenta y datos sintéticos, luego registrar entradas y salidas de referencia.
+Se completó acceso y se registraron casos de flete cargado, variación 20%→30% de utilidad y renta mensual con km cero. Ver [Resultados autenticados](08-resultados-autenticados.md). El resto de esta matriz sigue pendiente; los casos no prueban equivalencia completa.

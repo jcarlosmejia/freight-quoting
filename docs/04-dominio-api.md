@@ -28,7 +28,7 @@ El perfil de país sí tiene evidencia directa: `useCountryProfile-xZ6rAWQQ.js` 
 
 ## API observada estáticamente
 
-Base compilada: `https://api.fletcot.com/`. Tabla abreviada de llamadas visibles. **No se ejecutaron estas operaciones; los métodos y parámetros proceden del código cliente.**
+Base compilada: `https://api.fletcot.com/`. Tabla abreviada de llamadas visibles. **Esta tabla procede del código cliente; no valida todos los contratos. Posteriormente se ejecutaron registro, consultas y altas sintéticas mediante la UI, según el informe autenticado.**
 
 | Grupo | Ejemplos de operación | Fuente |
 |---|---|---|

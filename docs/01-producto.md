@@ -6,7 +6,7 @@ Fletcot transforma el costo de operar una unidad y una ruta en una propuesta com
 
 El flujo principal es **configurar empresa y flota → definir servicio → calcular → guardar → documentar → enviar → consultar historial**. Existe un segundo flujo de **renta/disposición**, donde se vende disponibilidad durante un periodo y un uso estimado.
 
-Niveles de evidencia: **observado** significa visible en archivos públicos o pantalla; **documentado** significa declarado por el producto, sin ejecución autenticada; **propuesto** significa diseño para el reemplazo. La presencia de una pantalla o endpoint no demuestra que la función opere correctamente.
+Niveles de evidencia: **observado** significa visible en archivos públicos o pantalla; **documentado** significa declarado por el producto, sin ejecución autenticada; **propuesto** significa diseño para el reemplazo. La presencia de una pantalla o endpoint no demuestra que la función opere correctamente. La cobertura que sí se probó en una cuenta está en [Resultados autenticados](08-resultados-autenticados.md).
 
 ## Mapa de capacidades
 
@@ -49,7 +49,7 @@ Las plantillas de referencia se atribuyen al IMT (PT838 2024). Son valores inici
 7. Guardar cliente, folio, vigencia y copia del cálculo.
 8. Exportar y enviar; registrar el envío.
 
-Estados documentados: borrador, enviada, aceptada, rechazada y vencida. Las transiciones reales y sus permisos quedan por probar.
+Estados documentados: borrador, enviada, aceptada, rechazada y vencida. Se verificó crear y volver a abrir un borrador. Las demás transiciones reales y sus permisos quedan por probar.
 
 ## Renta y tarifarios
 
