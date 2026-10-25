@@ -1,0 +1,446 @@
+[
+  {
+    "path": "/",
+    "name": "",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": ""
+  },
+  {
+    "path": "/auth",
+    "name": "Auth",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": "AuthLayout-Bmn69J7g.js"
+  },
+  {
+    "path": "/auth/login",
+    "name": "LoginUsuario",
+    "title": "Iniciar sesión",
+    "permissions": [],
+    "roles": [],
+    "component": "LoginPage-BxjsyLPH.js"
+  },
+  {
+    "path": "/auth/register-user",
+    "name": "UsuarioParticular",
+    "title": "Registrarse",
+    "permissions": [],
+    "roles": [],
+    "component": "RegisterPage-Cp_PwI1g.js"
+  },
+  {
+    "path": "/auth/confirm-email",
+    "name": "ConfirmEmail",
+    "title": "Confirmar correo",
+    "permissions": [],
+    "roles": [],
+    "component": "ConfirmEmail-D2U4dWT8.js"
+  },
+  {
+    "path": "/auth/verify-email",
+    "name": "VerifyEmail",
+    "title": "Verificar correo",
+    "permissions": [],
+    "roles": [],
+    "component": "VerifyEmailPage-ByQCHC1x.js"
+  },
+  {
+    "path": "/auth/verify-pending",
+    "name": "VerifyPending",
+    "title": "Verifica tu correo",
+    "permissions": [],
+    "roles": [],
+    "component": "VerifyPendingPage-CRekIB3I.js"
+  },
+  {
+    "path": "/auth/trial-ended",
+    "name": "TrialEnded",
+    "title": "Prueba terminada",
+    "permissions": [],
+    "roles": [],
+    "component": "TrialEndedPage-CoItOnZ7.js"
+  },
+  {
+    "path": "/auth/forgot-password",
+    "name": "ForgotPassword",
+    "title": "Recuperar contraseña",
+    "permissions": [],
+    "roles": [],
+    "component": "ForgotPasswordPage-BRyfss-f.js"
+  },
+  {
+    "path": "/auth/reset-password",
+    "name": "ResetPassword",
+    "title": "Restablecer contraseña",
+    "permissions": [],
+    "roles": [],
+    "component": "ResetPasswordPage-z3WSEbab.js"
+  },
+  {
+    "path": "/admin",
+    "name": "Admin",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": "MainLayout-CGI1l0cZ.js"
+  },
+  {
+    "path": "/admin/home",
+    "name": "Home",
+    "title": "Inicio",
+    "permissions": [],
+    "roles": [],
+    "component": "HomePage-Dq5rL_vR.js"
+  },
+  {
+    "path": "/admin/quotes",
+    "name": "Quotes",
+    "title": "Cotizar Servicio",
+    "permissions": [
+      "agregar:cotizacion"
+    ],
+    "roles": [],
+    "component": "QuotePage-MlzOT24K.js"
+  },
+  {
+    "path": "/admin/quotations",
+    "name": "Quotations",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": "QuotationsPage-DHkq7whB.js"
+  },
+  {
+    "path": "/admin/quotations/freight",
+    "name": "FreightQuote",
+    "title": "Cotizaciones de fletes",
+    "permissions": [
+      "ver:cotizacion"
+    ],
+    "roles": [],
+    "component": "FreightQuote-DyCeiVWI.js"
+  },
+  {
+    "path": "/admin/quotations/clients",
+    "name": "QuoteClients",
+    "title": "Clientes",
+    "permissions": [
+      "ver:cliente"
+    ],
+    "roles": [],
+    "component": "ClientsPage-wp-WvQb_.js"
+  },
+  {
+    "path": "/admin/quotations/detail/:id",
+    "name": "QuoteDetail",
+    "title": "Detalle de cotización",
+    "permissions": [
+      "ver:cotizacion"
+    ],
+    "roles": [],
+    "component": "QuoteDetailPage-Bh-pKXbF.js"
+  },
+  {
+    "path": "/admin/price-list",
+    "name": "PriceList",
+    "title": "Lista de precios",
+    "permissions": [
+      "ver:lista_precios"
+    ],
+    "roles": [],
+    "component": "PriceListPage-BS0hukqg.js"
+  },
+  {
+    "path": "/admin/sent",
+    "name": "SentDocuments",
+    "title": "Envíos",
+    "permissions": [
+      "ver:envio"
+    ],
+    "roles": [],
+    "component": "SentDocumentsPage-Dtt1ejt8.js"
+  },
+  {
+    "path": "/admin/templates",
+    "name": "",
+    "title": "",
+    "permissions": [
+      "ver:plantilla"
+    ],
+    "roles": [],
+    "component": "TemplatesPage-YA5fJE8B.js"
+  },
+  {
+    "path": "/admin/templates/",
+    "name": "Templates",
+    "title": "Plantillas",
+    "permissions": [],
+    "roles": [],
+    "component": "TemplatesManager-D-yq_nOT.js"
+  },
+  {
+    "path": "/admin/templates/price-list",
+    "name": "TemplatesPriceList",
+    "title": "Plantillas",
+    "permissions": [],
+    "roles": [],
+    "component": "TemplatesManager-D-yq_nOT.js"
+  },
+  {
+    "path": "/admin/users",
+    "name": "Users",
+    "title": "Usuarios",
+    "permissions": [
+      "lista:usuarios"
+    ],
+    "roles": [],
+    "component": "UsersPage-C41vMZSs.js"
+  },
+  {
+    "path": "/admin/roles",
+    "name": "Roles",
+    "title": "Roles y permisos",
+    "permissions": [
+      "modificar_permisos:usuario"
+    ],
+    "roles": [],
+    "component": "RolesPage-CrB_B5ky.js"
+  },
+  {
+    "path": "/admin/platform",
+    "name": "Platform",
+    "title": "Plataforma",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PlatformPage-CP2I8HdY.js"
+  },
+  {
+    "path": "/admin/tolls",
+    "name": "",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": ""
+  },
+  {
+    "path": "/admin/tolls/duplicates",
+    "name": "PlatformTolls",
+    "title": "Casetas duplicadas",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PlatformTollsPage-Cnhwp8o-.js"
+  },
+  {
+    "path": "/admin/tolls/positions",
+    "name": "PlatformTollPositions",
+    "title": "Ajuste de coordenadas",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PlatformTollPositionsPage-DHvn-xcs.js"
+  },
+  {
+    "path": "/admin/tolls/lanes",
+    "name": "PlatformTollLanes",
+    "title": "Revisión de carriles",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PlatformTollLanesPage-DKoG0-K-.js"
+  },
+  {
+    "path": "/admin/fuel-sync",
+    "name": "PlatformFuelSync",
+    "title": "Precios de combustible",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PlatformFuelSyncPage-ClcvMdIV.js"
+  },
+  {
+    "path": "/admin/support",
+    "name": "Support",
+    "title": "Ayuda y soporte",
+    "permissions": [],
+    "roles": [],
+    "component": "SupportPage-D05DJnzi.js"
+  },
+  {
+    "path": "/admin/support-inbox",
+    "name": "SupportInbox",
+    "title": "Bandeja de soporte",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "SupportInboxPage-D6BBlEoB.js"
+  },
+  {
+    "path": "/admin/invoice-requests",
+    "name": "InvoiceRequests",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": ""
+  },
+  {
+    "path": "/admin/payments",
+    "name": "PlatformPayments",
+    "title": "Compras y facturas",
+    "permissions": [],
+    "roles": [
+      "superadmin"
+    ],
+    "component": "PaymentsPage-BOeTjW3m.js"
+  },
+  {
+    "path": "/admin/vehicles",
+    "name": "",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": "VehiclesPage-C4JoZuUH.js"
+  },
+  {
+    "path": "/admin/vehicles/",
+    "name": "Vehicles",
+    "title": "Vehículos",
+    "permissions": [
+      "ver:vehiculo"
+    ],
+    "roles": [],
+    "component": "ListPage-DgIo2JMT.js"
+  },
+  {
+    "path": "/admin/vehicles/new",
+    "name": "CreateVehicle",
+    "title": "Registro",
+    "permissions": [
+      "agregar:vehiculo"
+    ],
+    "roles": [],
+    "component": "CreateVehiclePage-DYl81BVN.js"
+  },
+  {
+    "path": "/admin/vehicles/:id/edit",
+    "name": "EditVehicle",
+    "title": "Editar perfil",
+    "permissions": [
+      "modificar:vehiculo"
+    ],
+    "roles": [],
+    "component": "CreateVehiclePage-DYl81BVN.js"
+  },
+  {
+    "path": "/admin/bills",
+    "name": "Bills",
+    "title": "",
+    "permissions": [],
+    "roles": [],
+    "component": "BillsPage-Be9SEh5l.js"
+  },
+  {
+    "path": "/admin/bills/fixed-expenses",
+    "name": "",
+    "title": "",
+    "permissions": [
+      "ver:gasto_fijo"
+    ],
+    "roles": [],
+    "component": "FixedExpensesPage-BJrfxyvE.js"
+  },
+  {
+    "path": "/admin/bills/fixed-expenses/",
+    "name": "ListFixedExpenses",
+    "title": "Gastos fijos generales",
+    "permissions": [],
+    "roles": [],
+    "component": "ListPage-qv-Z5f3G.js"
+  },
+  {
+    "path": "/admin/bills/fixed-expenses/data-analysis",
+    "name": "DataAnalysisFixedExpenses",
+    "title": "Análisis de datos",
+    "permissions": [],
+    "roles": [],
+    "component": "DataAnalysis-DC9BEs9L.js"
+  },
+  {
+    "path": "/admin/board-equipment",
+    "name": "BoardEquipment",
+    "title": "Equipamiento",
+    "permissions": [
+      "ver:equipo"
+    ],
+    "roles": [],
+    "component": "BoardEquipmentPage-_QzH8HQg.js"
+  },
+  {
+    "path": "/admin/docs",
+    "name": "Docs",
+    "title": "Documentación del sistema",
+    "permissions": [],
+    "roles": [],
+    "component": "DocsPage-DU8KY3Vh.js"
+  },
+  {
+    "path": "/admin/primeros-pasos",
+    "name": "GettingStarted",
+    "title": "Primeros pasos para cotizar",
+    "permissions": [],
+    "roles": [],
+    "component": "GettingStartedPage-B7IclE7t.js"
+  },
+  {
+    "path": "/admin/profile",
+    "name": "Profile",
+    "title": "Perfil de Usuario",
+    "permissions": [],
+    "roles": [],
+    "component": "ProfilePage-CIRBtiPv.js"
+  },
+  {
+    "path": "/admin/settings",
+    "name": "Settings",
+    "title": "Configuración",
+    "permissions": [],
+    "roles": [],
+    "component": "ConfigurationPage-CdELg3xb.js"
+  },
+  {
+    "path": "/admin/billing",
+    "name": "Billing",
+    "title": "Facturación",
+    "permissions": [
+      "ver:facturacion"
+    ],
+    "roles": [],
+    "component": "BillingPage-bVZNATCx.js"
+  },
+  {
+    "path": "/unauthorized",
+    "name": "Unauthorized",
+    "title": "No autorizado",
+    "permissions": [],
+    "roles": [],
+    "component": "UnauthorizedPage-C-mp4wQM.js"
+  },
+  {
+    "path": "/:pathMatch(.*)*",
+    "name": "NotFound",
+    "title": "Página no encontrada",
+    "permissions": [],
+    "roles": [],
+    "component": "NotFoundPage-Cnh-hqTn.js"
+  }
+]

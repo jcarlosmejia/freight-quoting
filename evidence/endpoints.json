@@ -1,0 +1,1122 @@
+[
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment",
+    "nearby_method_hint": "POST",
+    "char_offset": 2037,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment",
+    "nearby_method_hint": "POST",
+    "char_offset": 2136,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment/cell",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 2264,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment/${s.value??\"\"}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 2334,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment/import",
+    "nearby_method_hint": "POST",
+    "char_offset": 2535,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "BoardEquipmentPage-_QzH8HQg.js",
+    "path_expression": "/equipment/export",
+    "nearby_method_hint": "GET",
+    "char_offset": 2593,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "ConfigurationPage-CdELg3xb.js",
+    "path_expression": "/telegram/status",
+    "nearby_method_hint": "GET",
+    "char_offset": 30562,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "ConfigurationPage-CdELg3xb.js",
+    "path_expression": "/telegram/link-code",
+    "nearby_method_hint": "POST",
+    "char_offset": 30699,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "ConfigurationPage-CdELg3xb.js",
+    "path_expression": "/telegram/link",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 30944,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "CreateVehiclePage-DYl81BVN.js",
+    "path_expression": "/fuel-prices/nearby/${y},${v}/${M}",
+    "nearby_method_hint": "GET",
+    "char_offset": 15425,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "CreateVehiclePage-DYl81BVN.js",
+    "path_expression": "/fuel-prices/in-bounds?min_lat=${y}&max_lat=${v}&min_lng=${M}&max_lng=${q}",
+    "nearby_method_hint": "GET",
+    "char_offset": 15510,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "FreightQuote-DyCeiVWI.js",
+    "path_expression": "/quotes/datatable",
+    "nearby_method_hint": "",
+    "char_offset": 2859,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "ListPage-DgIo2JMT.js",
+    "path_expression": "/vehicle/datatable",
+    "nearby_method_hint": "",
+    "char_offset": 3870,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "LoginPage-BxjsyLPH.js",
+    "path_expression": "/auth/forgot-password",
+    "nearby_method_hint": "",
+    "char_offset": 4714,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "LoginPage-BxjsyLPH.js",
+    "path_expression": "/auth/register-user",
+    "nearby_method_hint": "",
+    "char_offset": 5521,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "PlatformFuelSyncPage-ClcvMdIV.js",
+    "path_expression": "/platform/fuel-sync",
+    "nearby_method_hint": "GET",
+    "char_offset": 434,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "PlatformFuelSyncPage-ClcvMdIV.js",
+    "path_expression": "/platform/fuel-sync",
+    "nearby_method_hint": "POST",
+    "char_offset": 577,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QRouteDetailModal.vue_vue_type_script_setup_true_lang-G6Gc_AE7.js",
+    "path_expression": "/toll-nodes/along-route",
+    "nearby_method_hint": "POST",
+    "char_offset": 5853,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QuotePage-MlzOT24K.js",
+    "path_expression": "/location-points?type=${l}",
+    "nearby_method_hint": "GET",
+    "char_offset": 71046,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QuotePage-MlzOT24K.js",
+    "path_expression": "/location-points?${h.toString()}",
+    "nearby_method_hint": "GET",
+    "char_offset": 71408,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QuotePage-MlzOT24K.js",
+    "path_expression": "/location-points",
+    "nearby_method_hint": "POST",
+    "char_offset": 71691,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QuotePage-MlzOT24K.js",
+    "path_expression": "/location-points/${l.value??\"\"}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 71828,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "QuotePage-MlzOT24K.js",
+    "path_expression": "/route-risk/along-route",
+    "nearby_method_hint": "POST",
+    "char_offset": 117820,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "RecordPropertiesModal.vue_vue_type_script_setup_true_lang-CNLvoRh9.js",
+    "path_expression": "/users/directory",
+    "nearby_method_hint": "GET",
+    "char_offset": 265,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "RegisterPage-Cp_PwI1g.js",
+    "path_expression": "/auth/login",
+    "nearby_method_hint": "",
+    "char_offset": 7169,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/bunny/upload?folder=support",
+    "nearby_method_hint": "POST",
+    "char_offset": 430,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/tickets",
+    "nearby_method_hint": "GET",
+    "char_offset": 593,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/tickets/${s}",
+    "nearby_method_hint": "GET",
+    "char_offset": 726,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/tickets",
+    "nearby_method_hint": "POST",
+    "char_offset": 868,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/tickets/${s}/messages",
+    "nearby_method_hint": "POST",
+    "char_offset": 1009,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/admin/tickets?status=${s}",
+    "nearby_method_hint": "GET",
+    "char_offset": 1138,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/admin/tickets",
+    "nearby_method_hint": "GET",
+    "char_offset": 1175,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/admin/tickets/${s}",
+    "nearby_method_hint": "GET",
+    "char_offset": 1345,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/admin/tickets/${s}/reply",
+    "nearby_method_hint": "POST",
+    "char_offset": 1495,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "SupportImageUploader.vue_vue_type_script_setup_true_lang-BDTt7Me7.js",
+    "path_expression": "/support/admin/tickets/${s}/status",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1653,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "TrialEndedPage-CoItOnZ7.js",
+    "path_expression": "/auth/login",
+    "nearby_method_hint": "",
+    "char_offset": 2376,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "UsersPage-C41vMZSs.js",
+    "path_expression": "/users/datatable",
+    "nearby_method_hint": "",
+    "char_offset": 12992,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "VerifyPendingPage-CRekIB3I.js",
+    "path_expression": "/auth/login",
+    "nearby_method_hint": "",
+    "char_offset": 1386,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "roadIncidentMatching-CEDJgMHz.js",
+    "path_expression": "/road-incidents?cells=${encodeURIComponent(c.join(\",\"))}",
+    "nearby_method_hint": "GET",
+    "char_offset": 151,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/login",
+    "nearby_method_hint": "POST",
+    "char_offset": 172,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/register",
+    "nearby_method_hint": "POST",
+    "char_offset": 420,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/resend-verification",
+    "nearby_method_hint": "POST",
+    "char_offset": 611,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/forgot-password",
+    "nearby_method_hint": "POST",
+    "char_offset": 706,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/reset-password",
+    "nearby_method_hint": "POST",
+    "char_offset": 851,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/google",
+    "nearby_method_hint": "POST",
+    "char_offset": 1038,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/google/register",
+    "nearby_method_hint": "POST",
+    "char_offset": 1333,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/me/google",
+    "nearby_method_hint": "POST",
+    "char_offset": 1577,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useAuth-8KYdCYdB.js",
+    "path_expression": "/auth/me/google",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1782,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/overview",
+    "nearby_method_hint": "GET",
+    "char_offset": 498,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/sync",
+    "nearby_method_hint": "POST",
+    "char_offset": 779,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/checkout",
+    "nearby_method_hint": "POST",
+    "char_offset": 939,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/checkout/confirm",
+    "nearby_method_hint": "POST",
+    "char_offset": 1039,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/portal",
+    "nearby_method_hint": "POST",
+    "char_offset": 1174,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/fiscal-data",
+    "nearby_method_hint": "PUT",
+    "char_offset": 1571,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/payments/${e}/invoice-request",
+    "nearby_method_hint": "POST",
+    "char_offset": 1632,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/billing/invoice-requests/${e}/cancel",
+    "nearby_method_hint": "POST",
+    "char_offset": 1717,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/platform/invoice-requests/pending-count",
+    "nearby_method_hint": "GET",
+    "char_offset": 1866,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/platform/invoice-requests?${u}",
+    "nearby_method_hint": "GET",
+    "char_offset": 2126,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/platform/payments?${o}",
+    "nearby_method_hint": "GET",
+    "char_offset": 2409,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useBilling-BfTUUOAp.js",
+    "path_expression": "/platform/invoice-requests/${e}",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 2557,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients?${o}",
+    "nearby_method_hint": "GET",
+    "char_offset": 385,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients",
+    "nearby_method_hint": "GET",
+    "char_offset": 401,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/${e.value}",
+    "nearby_method_hint": "GET",
+    "char_offset": 705,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/0",
+    "nearby_method_hint": "GET",
+    "char_offset": 727,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients",
+    "nearby_method_hint": "POST",
+    "char_offset": 1008,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/${e.value}",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1156,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/0",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1178,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/${e.value}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1395,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/0",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1417,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/${e.value}/restore",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1639,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/0/restore",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1669,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/export",
+    "nearby_method_hint": "GET",
+    "char_offset": 1883,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useClients-Sq_M_Pxm.js",
+    "path_expression": "/clients/import",
+    "nearby_method_hint": "POST",
+    "char_offset": 2009,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useCompany-C8qpOI3s.js",
+    "path_expression": "/companies/me",
+    "nearby_method_hint": "GET",
+    "char_offset": 199,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useCompany-C8qpOI3s.js",
+    "path_expression": "/companies/me",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 541,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useCompany-C8qpOI3s.js",
+    "path_expression": "/companies/me/numbering",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 752,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useCompany-C8qpOI3s.js",
+    "path_expression": "/companies/me/preferences",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 975,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useCompany-C8qpOI3s.js",
+    "path_expression": "/bunny/upload?folder=company-logos",
+    "nearby_method_hint": "POST",
+    "char_offset": 1208,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/drafts?limit=${t}",
+    "nearby_method_hint": "GET",
+    "char_offset": 14541,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}",
+    "nearby_method_hint": "GET",
+    "char_offset": 14728,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0",
+    "nearby_method_hint": "GET",
+    "char_offset": 14749,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes",
+    "nearby_method_hint": "POST",
+    "char_offset": 15091,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}/items",
+    "nearby_method_hint": "POST",
+    "char_offset": 15233,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0/items",
+    "nearby_method_hint": "POST",
+    "char_offset": 15260,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}/items/${s.value}/recalculate",
+    "nearby_method_hint": "POST",
+    "char_offset": 15481,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0/items/0/recalculate",
+    "nearby_method_hint": "POST",
+    "char_offset": 15531,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes",
+    "nearby_method_hint": "POST",
+    "char_offset": 15792,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t}/items",
+    "nearby_method_hint": "POST",
+    "char_offset": 15924,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t}/items/${s}/recalculate",
+    "nearby_method_hint": "POST",
+    "char_offset": 16069,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 16263,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 16284,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 16494,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 16515,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}/items/${s.value}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 16717,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0/items/0",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 16755,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/0/export",
+    "nearby_method_hint": "",
+    "char_offset": 16990,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t.value}/export${b?",
+    "nearby_method_hint": "GET",
+    "char_offset": 17160,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t}/share${n?",
+    "nearby_method_hint": "GET",
+    "char_offset": 17371,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t}/send-email",
+    "nearby_method_hint": "POST",
+    "char_offset": 17567,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/${t}/send-whatsapp",
+    "nearby_method_hint": "POST",
+    "char_offset": 17803,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useDetailedReportPdf-CVZOafLH.js",
+    "path_expression": "/quotes/report/detailed-pdf",
+    "nearby_method_hint": "POST",
+    "char_offset": 18449,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-cost-segmentation/company",
+    "nearby_method_hint": "PUT",
+    "char_offset": 201,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-cost-segmentation/${e.value??\"\"}",
+    "nearby_method_hint": "PUT",
+    "char_offset": 273,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-expenses",
+    "nearby_method_hint": "POST",
+    "char_offset": 553,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-expenses/cell",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 689,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-expenses/${e}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 753,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-expenses/import",
+    "nearby_method_hint": "POST",
+    "char_offset": 818,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useFixedExpenses-4zUaW9hc.js",
+    "path_expression": "/fixed-expenses/export",
+    "nearby_method_hint": "GET",
+    "char_offset": 885,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/overview",
+    "nearby_method_hint": "GET",
+    "char_offset": 275,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/user-activity?${e}",
+    "nearby_method_hint": "GET",
+    "char_offset": 457,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}",
+    "nearby_method_hint": "GET",
+    "char_offset": 610,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/my-org",
+    "nearby_method_hint": "GET",
+    "char_offset": 760,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}?confirm_name=${encodeURIComponent(t)}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 876,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}/reset",
+    "nearby_method_hint": "POST",
+    "char_offset": 1165,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}/offer-sample-data",
+    "nearby_method_hint": "POST",
+    "char_offset": 1479,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}/verify-email",
+    "nearby_method_hint": "POST",
+    "char_offset": 1721,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}/extend-trial",
+    "nearby_method_hint": "POST",
+    "char_offset": 2026,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/users/${a}/password",
+    "nearby_method_hint": "POST",
+    "char_offset": 2381,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/companies/${a}/backup",
+    "nearby_method_hint": "GET",
+    "char_offset": 2570,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/core-export",
+    "nearby_method_hint": "GET",
+    "char_offset": 2626,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls/duplicates?radius_m=${a}",
+    "nearby_method_hint": "GET",
+    "char_offset": 2722,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls/coverage?radius_m=${a}",
+    "nearby_method_hint": "GET",
+    "char_offset": 2923,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls/plazas?pendientes=${a?1:0}",
+    "nearby_method_hint": "GET",
+    "char_offset": 3149,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls/plazas/${a}/position",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 3377,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls/lanes/${a}",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 3508,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "usePlatform-Ca9_Mfrs.js",
+    "path_expression": "/platform/tolls",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 3640,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates",
+    "nearby_method_hint": "",
+    "char_offset": 279,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/variables",
+    "nearby_method_hint": "",
+    "char_offset": 521,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates",
+    "nearby_method_hint": "POST",
+    "char_offset": 848,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/${e}/file",
+    "nearby_method_hint": "POST",
+    "char_offset": 1028,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/${e.value}",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1147,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/0",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1177,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/${e.value}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1401,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/0",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1431,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/${e.value}/set-default",
+    "nearby_method_hint": "POST",
+    "char_offset": 1638,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/0/set-default",
+    "nearby_method_hint": "POST",
+    "char_offset": 1680,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useQuoteTemplates-BDZcRMeJ.js",
+    "path_expression": "/quote-templates/${e}/download",
+    "nearby_method_hint": "GET",
+    "char_offset": 1973,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users/cell",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 651,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users",
+    "nearby_method_hint": "POST",
+    "char_offset": 737,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users/${t}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 870,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users/${t}/permanent",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 993,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users/${t}/status",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 1275,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/users/${t}/password-reset",
+    "nearby_method_hint": "POST",
+    "char_offset": 1411,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/auth/upload_image",
+    "nearby_method_hint": "POST",
+    "char_offset": 1822,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/auth/me",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 2010,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useUsers-CupSvPWX.js",
+    "path_expression": "/auth/change-password",
+    "nearby_method_hint": "POST",
+    "char_offset": 2133,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useVehicles-VTEtuCKG.js",
+    "path_expression": "/vehicle/catalogs",
+    "nearby_method_hint": "GET",
+    "char_offset": 201,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useVehicles-VTEtuCKG.js",
+    "path_expression": "/vehicle/templates",
+    "nearby_method_hint": "GET",
+    "char_offset": 292,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useVehicles-VTEtuCKG.js",
+    "path_expression": "/vehicle",
+    "nearby_method_hint": "POST",
+    "char_offset": 523,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useVehicles-VTEtuCKG.js",
+    "path_expression": "/vehicle/cell",
+    "nearby_method_hint": "PATCH",
+    "char_offset": 656,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useVehicles-VTEtuCKG.js",
+    "path_expression": "/vehicle/${e}/profile-pdf",
+    "nearby_method_hint": "GET",
+    "char_offset": 761,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/auth/email-integrations",
+    "nearby_method_hint": "GET",
+    "char_offset": 172,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/auth/email-integrations/gmail",
+    "nearby_method_hint": "PUT",
+    "char_offset": 319,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/auth/email-integrations/smtp",
+    "nearby_method_hint": "PUT",
+    "char_offset": 527,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/auth/email-integrations/${e}",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 710,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/auth/email-integrations/${e}/test",
+    "nearby_method_hint": "POST",
+    "char_offset": 839,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/whatsapp/status",
+    "nearby_method_hint": "GET",
+    "char_offset": 1201,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/whatsapp/connect",
+    "nearby_method_hint": "POST",
+    "char_offset": 1362,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/whatsapp/disconnect",
+    "nearby_method_hint": "DELETE",
+    "char_offset": 1569,
+    "status": "static reference; not requested"
+  },
+  {
+    "file": "useWhatsappIntegration-CdGYeOmy.js",
+    "path_expression": "/whatsapp/test",
+    "nearby_method_hint": "POST",
+    "char_offset": 1688,
+    "status": "static reference; not requested"
+  }
+]

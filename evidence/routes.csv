@@ -1,0 +1,51 @@
+path,name,title,permissions,roles,component
+/,,,[],[],
+/auth,Auth,,[],[],AuthLayout-Bmn69J7g.js
+/auth/login,LoginUsuario,Iniciar sesión,[],[],LoginPage-BxjsyLPH.js
+/auth/register-user,UsuarioParticular,Registrarse,[],[],RegisterPage-Cp_PwI1g.js
+/auth/confirm-email,ConfirmEmail,Confirmar correo,[],[],ConfirmEmail-D2U4dWT8.js
+/auth/verify-email,VerifyEmail,Verificar correo,[],[],VerifyEmailPage-ByQCHC1x.js
+/auth/verify-pending,VerifyPending,Verifica tu correo,[],[],VerifyPendingPage-CRekIB3I.js
+/auth/trial-ended,TrialEnded,Prueba terminada,[],[],TrialEndedPage-CoItOnZ7.js
+/auth/forgot-password,ForgotPassword,Recuperar contraseña,[],[],ForgotPasswordPage-BRyfss-f.js
+/auth/reset-password,ResetPassword,Restablecer contraseña,[],[],ResetPasswordPage-z3WSEbab.js
+/admin,Admin,,[],[],MainLayout-CGI1l0cZ.js
+/admin/home,Home,Inicio,[],[],HomePage-Dq5rL_vR.js
+/admin/quotes,Quotes,Cotizar Servicio,['agregar:cotizacion'],[],QuotePage-MlzOT24K.js
+/admin/quotations,Quotations,,[],[],QuotationsPage-DHkq7whB.js
+/admin/quotations/freight,FreightQuote,Cotizaciones de fletes,['ver:cotizacion'],[],FreightQuote-DyCeiVWI.js
+/admin/quotations/clients,QuoteClients,Clientes,['ver:cliente'],[],ClientsPage-wp-WvQb_.js
+/admin/quotations/detail/:id,QuoteDetail,Detalle de cotización,['ver:cotizacion'],[],QuoteDetailPage-Bh-pKXbF.js
+/admin/price-list,PriceList,Lista de precios,['ver:lista_precios'],[],PriceListPage-BS0hukqg.js
+/admin/sent,SentDocuments,Envíos,['ver:envio'],[],SentDocumentsPage-Dtt1ejt8.js
+/admin/templates,,,['ver:plantilla'],[],TemplatesPage-YA5fJE8B.js
+/admin/templates/,Templates,Plantillas,[],[],TemplatesManager-D-yq_nOT.js
+/admin/templates/price-list,TemplatesPriceList,Plantillas,[],[],TemplatesManager-D-yq_nOT.js
+/admin/users,Users,Usuarios,['lista:usuarios'],[],UsersPage-C41vMZSs.js
+/admin/roles,Roles,Roles y permisos,['modificar_permisos:usuario'],[],RolesPage-CrB_B5ky.js
+/admin/platform,Platform,Plataforma,[],['superadmin'],PlatformPage-CP2I8HdY.js
+/admin/tolls,,,[],[],
+/admin/tolls/duplicates,PlatformTolls,Casetas duplicadas,[],['superadmin'],PlatformTollsPage-Cnhwp8o-.js
+/admin/tolls/positions,PlatformTollPositions,Ajuste de coordenadas,[],['superadmin'],PlatformTollPositionsPage-DHvn-xcs.js
+/admin/tolls/lanes,PlatformTollLanes,Revisión de carriles,[],['superadmin'],PlatformTollLanesPage-DKoG0-K-.js
+/admin/fuel-sync,PlatformFuelSync,Precios de combustible,[],['superadmin'],PlatformFuelSyncPage-ClcvMdIV.js
+/admin/support,Support,Ayuda y soporte,[],[],SupportPage-D05DJnzi.js
+/admin/support-inbox,SupportInbox,Bandeja de soporte,[],['superadmin'],SupportInboxPage-D6BBlEoB.js
+/admin/invoice-requests,InvoiceRequests,,[],[],
+/admin/payments,PlatformPayments,Compras y facturas,[],['superadmin'],PaymentsPage-BOeTjW3m.js
+/admin/vehicles,,,[],[],VehiclesPage-C4JoZuUH.js
+/admin/vehicles/,Vehicles,Vehículos,['ver:vehiculo'],[],ListPage-DgIo2JMT.js
+/admin/vehicles/new,CreateVehicle,Registro,['agregar:vehiculo'],[],CreateVehiclePage-DYl81BVN.js
+/admin/vehicles/:id/edit,EditVehicle,Editar perfil,['modificar:vehiculo'],[],CreateVehiclePage-DYl81BVN.js
+/admin/bills,Bills,,[],[],BillsPage-Be9SEh5l.js
+/admin/bills/fixed-expenses,,,['ver:gasto_fijo'],[],FixedExpensesPage-BJrfxyvE.js
+/admin/bills/fixed-expenses/,ListFixedExpenses,Gastos fijos generales,[],[],ListPage-qv-Z5f3G.js
+/admin/bills/fixed-expenses/data-analysis,DataAnalysisFixedExpenses,Análisis de datos,[],[],DataAnalysis-DC9BEs9L.js
+/admin/board-equipment,BoardEquipment,Equipamiento,['ver:equipo'],[],BoardEquipmentPage-_QzH8HQg.js
+/admin/docs,Docs,Documentación del sistema,[],[],DocsPage-DU8KY3Vh.js
+/admin/primeros-pasos,GettingStarted,Primeros pasos para cotizar,[],[],GettingStartedPage-B7IclE7t.js
+/admin/profile,Profile,Perfil de Usuario,[],[],ProfilePage-CIRBtiPv.js
+/admin/settings,Settings,Configuración,[],[],ConfigurationPage-CdELg3xb.js
+/admin/billing,Billing,Facturación,['ver:facturacion'],[],BillingPage-bVZNATCx.js
+/unauthorized,Unauthorized,No autorizado,[],[],UnauthorizedPage-C-mp4wQM.js
+/:pathMatch(.*)*,NotFound,Página no encontrada,[],[],NotFoundPage-Cnh-hqTn.js

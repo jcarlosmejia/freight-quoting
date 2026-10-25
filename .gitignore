@@ -1,0 +1,9 @@
+evidence/raw/
+evidence/*extracted*
+evidence/docs-text.txt
+evidence/*.png
+evidence/*.jpg
+__pycache__/
+*.pyc
+.env
+.env.*
