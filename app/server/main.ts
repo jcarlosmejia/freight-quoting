@@ -7,4 +7,4 @@ const db = openDb(cfg.dbFile);
 migrate(db);
 const app = await buildApp({ db, dataDir: cfg.dataDir, env: cfg.env, secureCookies: cfg.secureCookies }, { webDir: cfg.webDir, logger: true });
 await app.listen({ host: cfg.host, port: cfg.port });
-console.log(`Fletcot local en http://${cfg.host}:${cfg.port}`);
+console.log(`Freight Quoting en http://${cfg.host}:${cfg.port}`);

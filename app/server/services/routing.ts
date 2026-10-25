@@ -92,7 +92,7 @@ export interface GeocodeResult {
 export async function geocode(env: Env, q: string): Promise<GeocodeResult[]> {
   if (!env.NOMINATIM_URL) throw new HttpError(409, 'La búsqueda de direcciones no está configurada (NOMINATIM_URL).');
   const url = `${env.NOMINATIM_URL.replace(/\/$/, '')}/search?format=jsonv2&addressdetails=1&limit=6&countrycodes=mx&q=${encodeURIComponent(q)}`;
-  const res = await fetch(url, { headers: { 'User-Agent': `fletcot-local/1.0 (${env.GEOCODER_CONTACT ?? 'sin contacto configurado'})`, 'Accept-Language': 'es' }, signal: AbortSignal.timeout(15000) });
+  const res = await fetch(url, { headers: { 'User-Agent': `freight-quoting/1.0 (${env.GEOCODER_CONTACT ?? 'sin contacto configurado'})`, 'Accept-Language': 'es' }, signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new HttpError(502, `El servicio de direcciones respondió ${res.status}.`);
   const data = (await res.json()) as any[];
   return data.map((d) => ({

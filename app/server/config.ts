@@ -21,7 +21,7 @@ export function settings(env = loadEnv()) {
   return {
     env,
     dataDir,
-    dbFile: join(dataDir, 'fletcot-local.sqlite'),
+    dbFile: join(dataDir, 'freight-quoting.sqlite'),
     host: env.HOST ?? '127.0.0.1',
     port: Number(env.PORT ?? 5180),
     secureCookies: env.SECURE_COOKIES === 'true',

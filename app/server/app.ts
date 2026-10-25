@@ -35,7 +35,7 @@ export async function buildApp(ctx: AppContext, opts: { webDir?: string; logger?
   app.addHook('onRequest', async (req) => {
     if (!req.url.startsWith('/api/')) return;
     // Protección CSRF: la cookie es SameSite=Strict y toda mutación exige una cabecera que un formulario ajeno no puede enviar.
-    if (req.method !== 'GET' && req.method !== 'HEAD' && req.headers['x-requested-with'] !== 'fletcot-local') {
+    if (req.method !== 'GET' && req.method !== 'HEAD' && req.headers['x-requested-with'] !== 'freight-quoting') {
       throw new HttpError(403, 'Solicitud rechazada (falta cabecera X-Requested-With).');
     }
     req.user = loadSession(ctx.db, req.cookies[SESSION_COOKIE]);

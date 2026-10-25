@@ -48,7 +48,7 @@ router.beforeEach(async (to) => {
   return true;
 });
 router.afterEach((to) => {
-  document.title = `Fletcot local | ${String(to.meta.title ?? '')}`;
+  document.title = `Freight Quoting | ${String(to.meta.title ?? '')}`;
 });
 
 window.addEventListener('session-expired', () => {

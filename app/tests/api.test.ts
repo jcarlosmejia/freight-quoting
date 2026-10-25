@@ -13,7 +13,7 @@ import nodemailer from 'nodemailer';
 
 const sentMail: any[] = [];
 
-const H = { 'x-requested-with': 'fletcot-local' };
+const H = { 'x-requested-with': 'freight-quoting' };
 let dir: string;
 let db: DB;
 let app: Awaited<ReturnType<typeof buildApp>>;
@@ -44,7 +44,7 @@ let refVehicleId: number;
 let refRoute: any;
 
 beforeAll(async () => {
-  dir = mkdtempSync(join(tmpdir(), 'fletcot-local-test-'));
+  dir = mkdtempSync(join(tmpdir(), 'freight-quoting-test-'));
   db = openDb(join(dir, 'db.sqlite'));
   migrate(db);
   seed(db, { adminEmail: ADMIN.email, adminPassword: ADMIN.password, userEmail: USER.email, userPassword: USER.password, dataDir: dir });

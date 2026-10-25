@@ -110,7 +110,7 @@ export function quoteDocx(db: DB, companyId: number, quoteId: number, dataDir: s
 
 export function pdfBuffer(build: (doc: PDFKit.PDFDocument) => void, meta: { title: string }): Promise<Buffer> {
   return new Promise((resolve, reject) => {
-    const doc = new PDFDocument({ size: 'LETTER', margin: 48, info: { Title: meta.title, Producer: 'Fletcot local', Creator: 'Fletcot local' } });
+    const doc = new PDFDocument({ size: 'LETTER', margin: 48, info: { Title: meta.title, Producer: 'Freight Quoting', Creator: 'Freight Quoting' } });
     const chunks: Buffer[] = [];
     doc.on('data', (c: Buffer) => chunks.push(c));
     doc.on('end', () => resolve(Buffer.concat(chunks)));

@@ -77,7 +77,7 @@ export function registerIntegrations(app: FastifyInstance, { db, env }: AppConte
   /** Respaldo JSON de la empresa. Excluye hashes de contraseña y secretos de integraciones. */
   app.get('/api/backup', async (r, reply) => {
     const u = requirePerm(r, 'exportar:respaldo');
-    const out: Record<string, unknown> = { format: 'fletcot-local-backup', version: 1, exportedAt: new Date().toISOString() };
+    const out: Record<string, unknown> = { format: 'freight-quoting-backup', version: 1, exportedAt: new Date().toISOString() };
     for (const t of BACKUP_TABLES) {
       const col = t === 'companies' ? 'id' : 'company_id';
       out[t] = all(db, `SELECT * FROM ${t} WHERE ${col} = ?`, u.companyId).map((row) => {

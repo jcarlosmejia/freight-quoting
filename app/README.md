@@ -1,4 +1,4 @@
-# Fletcot local · CARMAG TRANSPORTS
+# Freight Quoting · CARMAG TRANSPORTS
 
 Implementación propia y local de un cotizador de fletes y rentas equivalente en lo verificado a Fletcot, con el módulo de **cotización por kilómetro** de CARMAG TRANSPORTS (plataforma y caja seca, alternativas de precio, márgenes, PDF y WhatsApp/correo: [`../docs/12-carmag-cotizacion-km.md`](../docs/12-carmag-cotizacion-km.md)). No usa código, claves ni servidores de Fletcot. Estado y diferencias: [`../docs/10-paridad.md`](../docs/10-paridad.md). Origen de las reglas: [`../docs/09-recuperacion-codigo.md`](../docs/09-recuperacion-codigo.md).
 
@@ -79,7 +79,7 @@ Todos son sintéticos. El perfil "Referencia T3-S2" y la ruta "Referencia CDMX �
 
 ## Seguridad
 
-Cookie de sesión HttpOnly y SameSite=Strict; las mutaciones exigen la cabecera `X-Requested-With: fletcot-local`; permisos y alcance por empresa se validan en el servidor; límite de intentos de acceso por correo. Por defecto escucha sólo en `127.0.0.1`. Para exponerla en red usa HTTPS y `SECURE_COOKIES=true`.
+Cookie de sesión HttpOnly y SameSite=Strict; las mutaciones exigen la cabecera `X-Requested-With: freight-quoting`; permisos y alcance por empresa se validan en el servidor; límite de intentos de acceso por correo. Por defecto escucha sólo en `127.0.0.1`. Para exponerla en red usa HTTPS y `SECURE_COOKIES=true`.
 
 ## Respaldo
 

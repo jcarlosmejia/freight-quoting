@@ -12,7 +12,7 @@ async function request<T>(method: string, url: string, body?: unknown): Promise<
   const res = await fetch(`/api${url}`, {
     method,
     credentials: 'same-origin',
-    headers: { 'X-Requested-With': 'fletcot-local', ...(body !== undefined && !isForm ? { 'Content-Type': 'application/json' } : {}) },
+    headers: { 'X-Requested-With': 'freight-quoting', ...(body !== undefined && !isForm ? { 'Content-Type': 'application/json' } : {}) },
     body: body === undefined ? undefined : isForm ? body : JSON.stringify(body),
   });
   if (res.status === 401 && !url.startsWith('/auth/')) {
