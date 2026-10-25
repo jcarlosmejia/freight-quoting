@@ -3,20 +3,122 @@
   "currency": "MXN",
   "provenance": "Live authenticated UI in the user's own evaluation company; synthetic and vendor sample data only",
   "status": "observed reference cases; not an implementation of the proprietary engine",
-  "fleet": {"annual_fixed_expenses": "8604000.00", "annual_billable_hours": "99840", "displayed_hourly_recovery": "86.18"},
-  "vehicle": {"value": "1299534.00", "salvage_percent": "20", "salvage_amount": "259906.80", "depreciable_base": "1039627.20", "average_capital": "779720.40", "annual_capital_percent": "10", "annual_capital_cost": "77972.04"},
+  "fleet": {
+    "annual_fixed_expenses": "8604000.00",
+    "annual_billable_hours": "99840",
+    "displayed_hourly_recovery": "86.18"
+  },
+  "vehicle": {
+    "value": "1299534.00",
+    "salvage_percent": "20",
+    "salvage_amount": "259906.80",
+    "depreciable_base": "1039627.20",
+    "average_capital": "779720.40",
+    "annual_capital_percent": "10",
+    "annual_capital_cost": "77972.04"
+  },
   "freight": {
     "route": "Ciudad de México → Puebla",
     "vehicle": "T3-S2",
     "loaded_km_displayed": "130.228",
     "duration_displayed": "2h 3min",
     "empty_km": "0",
-    "fuel": "1524.32", "tires": "59.53", "maintenance": "46.88", "depreciation": "245.50", "rest": "0.00",
-    "general_fixed": "177.85", "specific_fixed": "77.90", "equipment": "14.19", "capital": "89.27",
-    "loaded_components_subtotal": "2235.45", "driver": "390.69", "tolls": "1304.00", "trip_cost": "3930.14",
-    "profit_percent": "20", "profit": "525.23", "subtotal": "4455.36", "tax_percent": "16", "tax": "712.86", "total": "5168.22",
-    "profit_30_variant": {"profit_percent": "30", "profit": "787.84", "subtotal": "4717.98", "tax": "754.88", "total": "5472.85"}
+    "fuel": "1524.32",
+    "tires": "59.53",
+    "maintenance": "46.88",
+    "depreciation": "245.50",
+    "rest": "0.00",
+    "general_fixed": "177.85",
+    "specific_fixed": "77.90",
+    "equipment": "14.19",
+    "capital": "89.27",
+    "loaded_components_subtotal": "2235.45",
+    "driver": "390.69",
+    "tolls": "1304.00",
+    "trip_cost": "3930.14",
+    "profit_percent": "20",
+    "profit": "525.23",
+    "subtotal": "4455.36",
+    "tax_percent": "16",
+    "tax": "712.86",
+    "total": "5168.22",
+    "profit_30_variant": {
+      "profit_percent": "30",
+      "profit": "787.84",
+      "subtotal": "4717.98",
+      "tax": "754.88",
+      "total": "5472.85"
+    },
+    "consistency_inputs": {
+      "loaded_meters": "130228.35",
+      "driving_seconds": "7429.15",
+      "note": "Una de 15 combinaciones dentro del redondeo mostrado (130.228 km; 2h 3min) que reproducen los 15 importes con el motor local. No son los valores exactos del proveedor de rutas.",
+      "verified_by": "app/tests/costing.reference.test.ts"
+    }
   },
-  "rental": {"mode": "Monthly", "quantity": 1, "operating_days": "26", "billable_hours": "208", "estimated_km": "0", "fuel_and_tolls_paid_by": "customer", "extra_driver_monthly_salary": "0", "availability_cost": "49256.92", "usage_cost": "0.00", "profit_percent": "20", "profit": "9851.38", "subtotal": "59108.31", "tax_percent": "16", "tax": "9457.33", "total": "68565.63"},
-  "limitations": ["Amounts are displayed rounded values; component sums can differ by one cent from UI totals.", "No empty-return, long-rest, commission or historical-recalculation equivalence verified.", "Traffic, routing and tariffs can change; cases are captured observations, not permanent public price quotes."]
+  "rental": {
+    "mode": "Monthly",
+    "quantity": 1,
+    "operating_days": "26",
+    "billable_hours": "208",
+    "estimated_km": "0",
+    "fuel_and_tolls_paid_by": "customer",
+    "extra_driver_monthly_salary": "0",
+    "availability_cost": "49256.92",
+    "usage_cost": "0.00",
+    "profit_percent": "20",
+    "profit": "9851.38",
+    "subtotal": "59108.31",
+    "tax_percent": "16",
+    "tax": "9457.33",
+    "total": "68565.63",
+    "annual_figures_displayed": {
+      "general": "215105.28",
+      "specific": "94224.00",
+      "equipment": "17161.67",
+      "vehicle_depreciation_per_year": "129953.40",
+      "trailer_depreciation_per_year": "26666.67"
+    }
+  },
+  "limitations": [
+    "Amounts are displayed rounded values; component sums can differ by one cent from UI totals.",
+    "No empty-return, long-rest, commission or historical-recalculation equivalence verified.",
+    "Traffic, routing and tariffs can change; cases are captured observations, not permanent public price quotes."
+  ],
+  "server_rates": {
+    "general_per_hour": "86.18",
+    "specific_per_hour": "37.75",
+    "equipment_per_hour_unrounded": "6.875668",
+    "equipment_annual": "17161.67",
+    "specific_annual": "94218.00",
+    "note": "Reconstruidos: general y específicos redondeados a centavos, equipamiento sin redondear; sólo así la renta reproduce 17,925.44 / 7,852.00 / 1,430.14."
+  },
+  "public_marketing_case": {
+    "source": "https://fletcot.com/ (sección de ejemplo, capturada 2026-10-25)",
+    "status": "pendiente de verificar: entradas incompletas (no se publican paradas, carga, precio de combustible ni casetas por tramo)",
+    "vehicle": "T3-S2",
+    "distance_km": "966.3",
+    "time": "18h 37min",
+    "fuel": "12566.77",
+    "tires": "441.73",
+    "maintenance": "347.85",
+    "depreciation": "2575.95",
+    "rest": "1600.00",
+    "general_fixed": "2983.56",
+    "specific_fixed": "1306.91",
+    "equipment": "238.04",
+    "capital": "940.30",
+    "driver": "3220.87",
+    "tolls": "8222.00",
+    "trip_cost": "34443.98",
+    "profit": "4412.16",
+    "subtotal": "38856.14",
+    "tax": "6216.98",
+    "total": "45073.12",
+    "partial_check": "Con 2 descansos de 8 h y 18.6201 h de manejo (18h 37min mostrado), las horas con cliente son 34.6201 y reproducen gastos generales (86.18/h), específicos (37.75/h) y equipamiento (6.8757/h). Combustible, depreciación y capital usan otros parámetros de vehículo no publicados."
+  },
+  "display_rules": {
+    "duration": "minutos truncados (≈7,429 s → 2h 3min)",
+    "dates": "Fletcot muestra AAAA-MM-DD un día antes en lista/detalle (new Date en UTC, mostrado en America/Mexico_City); la app local no replica ese desfase"
+  }
 }

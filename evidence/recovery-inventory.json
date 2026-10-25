@@ -1,0 +1,282 @@
+[
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useQuoteCalculation-CmDae2MV.js",
+  "source_sha256": "e4d31f38a4b77141c3df1919a02264c89a0b0dfc500c0e880c3ace081e2a86b4",
+  "derived": "evidence/deobfuscated/useQuoteCalculation-CmDae2MV.deob.js",
+  "derived_sha256": "788e84e3aca53bfcd46bebce8fe3fedbd549b1b449eba2c52bd64527f89c6a8b",
+  "bytes_in": 33123,
+  "bytes_out": 12838,
+  "classification": "Código compilado recuperado (desofuscado)",
+  "method": "webcrack 2.x, deobfuscate+unminify, mangle desactivado"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useRentalCalculation-DBYKgVCg.js",
+  "source_sha256": "ee01f55b9068f2bece9d8a5117049beeb5b27025f30fe3aa948d7bd423f60aa4",
+  "derived": "evidence/deobfuscated/useRentalCalculation-DBYKgVCg.deob.js",
+  "derived_sha256": "75cd2c369bded89bb41e00289e0bfd10b2b2b5ca5b685532b349e92a8fad5db9",
+  "bytes_in": 27682,
+  "bytes_out": 10751,
+  "classification": "Código compilado recuperado (desofuscado)",
+  "method": "webcrack 2.x, deobfuscate+unminify, mangle desactivado"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useFrozenRecalc-DAdud4PD.js",
+  "source_sha256": "8a4abfcde4c7131ff6e646dbcb0c92ea8208a54611bffd4a3923f8f3816546d0",
+  "derived": "evidence/deobfuscated/useFrozenRecalc-DAdud4PD.deob.js",
+  "derived_sha256": "d9934d5cc1aeac13aca669a4300755ad24756165755970eff9e127cbd2a2c6c0",
+  "bytes_in": 22375,
+  "bytes_out": 8057,
+  "classification": "Código compilado recuperado (desofuscado)",
+  "method": "webcrack 2.x, deobfuscate+unminify, mangle desactivado"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/PriceListPage-BS0hukqg.js",
+  "source_sha256": "0a369461e6e4b25c66133910190c0461992e60c6524130346acfb21457692b88",
+  "derived": "evidence/deobfuscated/PriceListPage-BS0hukqg.deob.js",
+  "derived_sha256": "3765080dfa39bb5576e3ef5051faaebd9105427b1cee3fce4906cc08f9c52079",
+  "bytes_in": 89259,
+  "bytes_out": 119573,
+  "classification": "Código compilado recuperado (desofuscado)",
+  "method": "webcrack 2.x, deobfuscate+unminify, mangle desactivado"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/BoardEquipmentPage-_QzH8HQg.js",
+  "source_sha256": "5446f9b8dd974d7e0dc5e792604bc7f99394fcfd1564212b72de5eaa531173fb",
+  "derived": "evidence/pretty/BoardEquipmentPage-_QzH8HQg.js",
+  "derived_sha256": "59a3293b06c0fa1305c31269020176ff3cc2607088b873b585017e9c822fd199",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/ClientsPage-wp-WvQb_.js",
+  "source_sha256": "f3577cb72a5e5577791b41824817ec08f28af3033ae53c81a896054ddfc34802",
+  "derived": "evidence/pretty/ClientsPage-wp-WvQb_.js",
+  "derived_sha256": "1c437f9dbcbdd59e4cdf2d1592376239c587bebf23d7dd51ff372791cb01ef52",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/ConfigurationPage-CdELg3xb.js",
+  "source_sha256": "65cd47ae4a8d32df860a51492202734e42c3891e1fd2cfdeec9dae0d8caf5286",
+  "derived": "evidence/pretty/ConfigurationPage-CdELg3xb.js",
+  "derived_sha256": "debd7961fd2e6f112a3fc1bd91ece37b27da8ea0dfa89b459ee98bf4222ce660",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/CreateVehiclePage-DYl81BVN.js",
+  "source_sha256": "fe55d96db54037f4a9bdfef11c6bd3b6151057be63ec4fbd5f99fda3f60974fd",
+  "derived": "evidence/pretty/CreateVehiclePage-DYl81BVN.js",
+  "derived_sha256": "19068713a62af8df4ff005d79c63ed739e4d709d2998ab5486a480d728f6eb43",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/DataAnalysis-DC9BEs9L.js",
+  "source_sha256": "6434c191c3822182f3a41cd2e87e7a819630e02af618f43ee745df5d369a8fb0",
+  "derived": "evidence/pretty/DataAnalysis-DC9BEs9L.js",
+  "derived_sha256": "a1bf5e413bf0e82185b3a6a06c097e009b40e2c09eca4d2fff3ffe7c40768e5f",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/DocsPage-DU8KY3Vh.js",
+  "source_sha256": "3e63f50afda765dc1eb89506ebd381017834f9875d7fa27fbda1484679797b26",
+  "derived": "evidence/pretty/DocsPage-DU8KY3Vh.js",
+  "derived_sha256": "a3bf9964bc243b33c4e59eae44619fdc224ef8bda8182a527faf6d62d2489468",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/FixedExpensesPage-BJrfxyvE.js",
+  "source_sha256": "2d445df43c1c26285a2ad0dd3ff1466417cc1a3f44bdfa0be977c6345e2b9d54",
+  "derived": "evidence/pretty/FixedExpensesPage-BJrfxyvE.js",
+  "derived_sha256": "8e963275df199be5a5ac91c7ec5659c29c37e44f1a4b736feae892ed1156b61c",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/FreightQuote-DyCeiVWI.js",
+  "source_sha256": "c1d66615274941b539c6d3517cdbb51ed4fa652f1b3855067df23df6da1b3e1c",
+  "derived": "evidence/pretty/FreightQuote-DyCeiVWI.js",
+  "derived_sha256": "7526f5179637808e8b0ae0fb22be975aeea3bf3c9583ef4f9245f013e4ad1598",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/HomePage-Dq5rL_vR.js",
+  "source_sha256": "d777b7775f23640c09d0142eaddc4807886c5edba9b0a8079390812019955a04",
+  "derived": "evidence/pretty/HomePage-Dq5rL_vR.js",
+  "derived_sha256": "6a845e13e36ce8b0b2d738b17f787f2e09b0bef9241bda753c8e4d762d6cc38a",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/ListPage-DgIo2JMT.js",
+  "source_sha256": "4b09a24e4c202c685cfb4b606fa2e60b85c113f6c7e0261b83d83c8d19d2bb79",
+  "derived": "evidence/pretty/ListPage-DgIo2JMT.js",
+  "derived_sha256": "772864f841c695a4ec615c098fa9d2548ffd5df0e69cd8461c08b614468a92e9",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/ListPage-qv-Z5f3G.js",
+  "source_sha256": "9a719e4b9ec96e475a5f5a97bc0327e54d165a7d3788d95f550b50c04997a6e0",
+  "derived": "evidence/pretty/ListPage-qv-Z5f3G.js",
+  "derived_sha256": "502e3c2ad3b36efb1c1fa304cca714acfc9eaa67b456611af8dc0b567275eaf3",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/MainLayout-CGI1l0cZ.js",
+  "source_sha256": "1010769ece86299fdc4eb8a8574a90ee3a43de4d5e5a8e9afaa2c322d617b369",
+  "derived": "evidence/pretty/MainLayout-CGI1l0cZ.js",
+  "derived_sha256": "523c84b30ba095f877310172cedd00ec9ba9eb335715205a10389bcf49af5a2a",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/QRouteDetailModal.vue_vue_type_script_setup_true_lang-G6Gc_AE7.js",
+  "source_sha256": "25d42438483a783d8e977f237b0344c3b8154624536e34810b1a249e8e11eaef",
+  "derived": "evidence/pretty/QRouteDetailModal.js",
+  "derived_sha256": "0e88ff171288c104020bd32ab2057acef7a94478fbadf5a0faa1e5685eb9a5c3",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/QuoteDetailPage-Bh-pKXbF.js",
+  "source_sha256": "d1f264a33dca45d988f58992c1083b0fc57fd3fa6ed844b2ac8af9e9b8e6e0bf",
+  "derived": "evidence/pretty/QuoteDetailPage-Bh-pKXbF.js",
+  "derived_sha256": "ced40df337c945c5ce559879b1d617b714dea9a2ea641844fdc6e024979f6a07",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/QuotePage-MlzOT24K.js",
+  "source_sha256": "184b2ec7d0409e9d24e7bdb6c9a845ed1885fa7e66702f4d9e4d6b7f556fc32a",
+  "derived": "evidence/pretty/QuotePage-MlzOT24K.js",
+  "derived_sha256": "55efc3bfa96c6c9d132b356210ae5bcc7f388922d2c96ee321626cacdc2d420c",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/RolesPage-CrB_B5ky.js",
+  "source_sha256": "c38df187b2a2865cb68b6ad1b3bf66b1277382c769e64f5abfbb20f65ee74a19",
+  "derived": "evidence/pretty/RolesPage-CrB_B5ky.js",
+  "derived_sha256": "18c160bba2203bcc9bcf2ee2648ab5cd7610a22444b2be0891f60d9b89e9556b",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/SentDocumentsPage-Dtt1ejt8.js",
+  "source_sha256": "4e449e450475eed47ac00a1d8fbdaf01f2946014510c21144add0ff0bd467233",
+  "derived": "evidence/pretty/SentDocumentsPage-Dtt1ejt8.js",
+  "derived_sha256": "249d4b168fa361a01c16bba49e462eba212aab0856568761cad0ba7c0753c93a",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/TemplatesManager-D-yq_nOT.js",
+  "source_sha256": "9a9e49b9c8550182e97287a773c6c6699cd2639722362ef220efbd700ff21503",
+  "derived": "evidence/pretty/TemplatesManager-D-yq_nOT.js",
+  "derived_sha256": "2260ff403557a3ce515e49c13973ec462b3f80aaa22f428dfdc5046e2d5e7f25",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/VehiclesPage-C4JoZuUH.js",
+  "source_sha256": "cb478b80b9b50e1fe3f6c5b9f322b66a158037b4217705f66a02a640b8ed8b63",
+  "derived": "evidence/pretty/VehiclesPage-C4JoZuUH.js",
+  "derived_sha256": "8042dfee21d5b3e845749485ed51a3236716b355966686bab418b7477b05c9a4",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/routeGeometry-Ec8en0sP.js",
+  "source_sha256": "182b795fb4978df9d9f4d11022c2407743c037aa4d34d08301d18787a3d86561",
+  "derived": "evidence/pretty/routeGeometry-Ec8en0sP.js",
+  "derived_sha256": "7b1d65ba5b551fd92eba3c7980fba526b4f3d69372b65f61092f3145cd173a3f",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useAuth-8KYdCYdB.js",
+  "source_sha256": "d13b686b6d4a6223c87126336292e5f3ad654be594cd18d3e5541efbd0478253",
+  "derived": "evidence/pretty/useAuth-8KYdCYdB.js",
+  "derived_sha256": "75c164f3da5580c0b2649698ce4d6451fb3fbdfadb9c8ed6e7747e4723bc30e9",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useClients-Sq_M_Pxm.js",
+  "source_sha256": "6f4f709243297e98d135b20b6d9e318adbb86fab4d6ad1970e28c55508943634",
+  "derived": "evidence/pretty/useClients-Sq_M_Pxm.js",
+  "derived_sha256": "8688e52dfc4d1563280210c75502fa19547850d6ec801b85d2d26aa08808d5b7",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useCompany-C8qpOI3s.js",
+  "source_sha256": "4214c2ae5b5d8c7207ba916fbad8043b6f8cdf8185780584f8220e36e5721afc",
+  "derived": "evidence/pretty/useCompany-C8qpOI3s.js",
+  "derived_sha256": "8c813ec2ef97e070e26b280c549bb815afd331e3d8167936f9c9e1e3cc61d346",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useCountryProfile-xZ6rAWQQ.js",
+  "source_sha256": "089215a5e77106c7b5cdc8d52c900326ca965ec6bed70156c759f9b9890f5360",
+  "derived": "evidence/pretty/useCountryProfile-xZ6rAWQQ.js",
+  "derived_sha256": "072bac8ce4ea21a18dce9f3c2e5c85e13aae81c997e44fcdf0372291090b0b0c",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useDetailedReportPdf-CVZOafLH.js",
+  "source_sha256": "5c747c51fd75510c432d2f235950f65307e993d8242622f88de5f97e1960a089",
+  "derived": "evidence/pretty/useDetailedReportPdf-CVZOafLH.js",
+  "derived_sha256": "881657855cb5697933360f8862b03015351c62da3266d618254cfb69368378aa",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useFixedExpenses-4zUaW9hc.js",
+  "source_sha256": "ce16edb57dda5832d0c96336f32494f5cf7958135f658f6b02c9bad3d645ae7f",
+  "derived": "evidence/pretty/useFixedExpenses-4zUaW9hc.js",
+  "derived_sha256": "a3a79b07cfcf7f6ecada52f84c816a7330e964b342a029b82761ea7504c87dda",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/usePermissions-XgY4PLJI.js",
+  "source_sha256": "665455b6f0e7d7a41ac612935c539ace7a11ce7804a389ecf4f9f40c373bda6b",
+  "derived": "evidence/pretty/usePermissions-XgY4PLJI.js",
+  "derived_sha256": "3bf212115d8737fd059546ed0062345a8ef83cfefab7c722c466bc65cc90e5a6",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useQuotePreferences-BF46KJ78.js",
+  "source_sha256": "ce48d0eb10864ad151a81b27cab1d98929623ebff6fac5496c8c6f85f5ba7066",
+  "derived": "evidence/pretty/useQuotePreferences-BF46KJ78.js",
+  "derived_sha256": "63ad1d5bf4f383548eedf3840c1e62d8c7cbba33ff5a2edf4eb2cc7fcd370672",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useQuoteTemplates-BDZcRMeJ.js",
+  "source_sha256": "ce2803fea8d2340669de173d2b6d7a460c3202b4ee01a2badcbca8bfb5dfbb43",
+  "derived": "evidence/pretty/useQuoteTemplates-BDZcRMeJ.js",
+  "derived_sha256": "ee4af9967949c696f6d3900407535585564c996c95e4080ec6ac5d58695e5c5d",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ },
+ {
+  "source": "evidence/raw/app.fletcot.com/assets/useVehicles-VTEtuCKG.js",
+  "source_sha256": "8aa9822a5092ffe5a751921fa6139cfa5008d7e72fbc4099c917cbcea17ffedd",
+  "derived": "evidence/pretty/useVehicles-VTEtuCKG.js",
+  "derived_sha256": "7ab3e162d2fcdd96b0df997c38f172686edcf8b124dfb3d5c1b81c23742d264d",
+  "classification": "Código compilado recuperado (formateado)",
+  "method": "webcrack unminify"
+ }
+]

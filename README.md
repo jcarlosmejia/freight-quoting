@@ -2,7 +2,9 @@
 
 Investigación pública y autenticada del 25 de octubre de 2026. Objetivo: entender el producto, conservar evidencia pública y definir cómo obtener o construir un sistema propio modificable.
 
-**Resultado:** se recuperaron los archivos distribuidos al navegador, el mapa de navegación, referencias a la API y documentación funcional embebida. **No se obtuvo el proyecto fuente original, el backend ni una base de datos. Este repositorio no es una aplicación autónoma ejecutable.**
+**Resultado:** se recuperaron los archivos distribuidos al navegador, el mapa de navegación, referencias a la API y documentación funcional embebida. Los cuatro chunks ofuscados se desofuscaron estáticamente y revelaron el motor de flete, renta, recálculo y tarifarios. **No se obtuvo el proyecto fuente original, el backend ni una base de datos**: no hay repositorios, paquetes ni mapas de fuente públicos.
+
+Con esa evidencia se construyó una aplicación local propia en [`app/`](app/README.md): backend con SQLite y migraciones, autenticación y permisos en servidor, motor compartido, cotizaciones con snapshot, Word/PDF, renta y tarifarios. Reproduce al centavo los casos de flete y renta observados; las diferencias y lo pendiente están en la [matriz de paridad](docs/10-paridad.md). No es una copia exacta de Fletcot.
 
 Fletcot anuncia una licencia única que incluye código completo, documentación e instalación en infraestructura propia, con precio a convenir: [oferta oficial](https://fletcot.com/#precios). Es una alternativa concreta a reconstruirlo, pendiente de verificar mediante una entrega y condiciones escritas.
 
@@ -16,6 +18,11 @@ Fletcot anuncia una licencia única que incluye código completo, documentación
 6. [Método, evidencia y límites](docs/06-evidencia.md): qué se hizo y qué falta.
 7. [Cobertura de la revisión privada](docs/07-revision-privada.md): cuenta creada y recorrido por módulos.
 8. [Resultados autenticados](docs/08-resultados-autenticados.md): casos reales de flete/renta, guardado, permisos y limitaciones.
+9. [Recuperación de código](docs/09-recuperacion-codigo.md): técnicas, clasificación, motor recuperado y discrepancias de fechas y centavos.
+10. [Paridad de la app local](docs/10-paridad.md): módulo por módulo, verificaciones y pendientes.
+11. [App local](app/README.md): instalación y operación.
+12. [Registro](docs/11-registro.md): avances, decisiones y obstáculos.
+13. [CARMAG: cotización por km](docs/12-carmag-cotizacion-km.md): alternativas, márgenes, PDF, WhatsApp/correo y caso Zapopan → Altamira.
 
 La cuenta de prueba ya está creada. Se recorrieron los módulos propios, se creó un cliente sintético y la cotización COT-2026-0001, y se capturaron casos de flete y renta. Sus valores normalizados están en `fixtures/observed-calculations.json`; las capturas privadas están en `evidence/authenticated/` y no se incluyen en Git.
 
@@ -34,6 +41,14 @@ La cuenta de prueba ya está creada. Se recorrieron los módulos propios, se cre
 
 Los originales están en `evidence/raw/`, excluidos de Git. La documentación extraída y las capturas también quedan locales: pueden contener contenido de terceros y configuración pública de sus servicios. No se asigna una licencia nueva al código de Fletcot ni se publican estos archivos.
 
+## Aplicación local
+
+```sh
+cd app && npm ci && cp .env.example .env && npm run local
+```
+
+Abre http://127.0.0.1:5180. Pruebas: `cd app && npm test`. No contacta dominios de Fletcot.
+
 ## Repetir la captura y verificar
 
 Requiere Python 3 y curl; no instala dependencias ni ejecuta el JavaScript descargado.
@@ -47,4 +62,6 @@ python3 scripts/check_observed_cases.py
 
 La captura realiza GET sin credenciales, con tres solicitudes simultáneas, límite de 450 candidatos y 12 MB por respuesta. Solo sigue candidatos de los dos hosts públicos. El análisis comprueba las huellas de las respuestas correctas y valida casos representativos del inventario.
 
-No ejecutar una copia del frontend contra la API de producción para desarrollar el reemplazo. Un backend propio y credenciales propias forman parte del alcance pendiente.
+La desofuscación se repite con `node scripts/deobfuscate_public.mjs <carpeta con webcrack>`; la salida queda en `evidence/deobfuscated/`, fuera de Git, y sus hashes en `evidence/recovery-inventory.json`.
+
+No se ejecuta una copia del frontend de Fletcot contra su API. La app local usa su propio backend.

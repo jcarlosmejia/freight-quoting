@@ -8,3 +8,6 @@ __pycache__/
 .env
 .env.*
 evidence/authenticated/
+evidence/deobfuscated/
+evidence/pretty/
+!app/.env.example
